@@ -40,8 +40,8 @@ body {
     gap: 15px;
 }
 
-.main__data .data__titile {
-    border-bottom: 1px solid #000000;
+.main__data .data__title {
+    border-bottom: 1px solid #757575;
 }
 
 .main__data .data__container {
@@ -52,8 +52,13 @@ body {
 
 .main__data .data__label {
     grid-column: 1;
+    color: #757575;
 }
 
 .main__data .data__info {
     grid-column: 2;
+}
+
+.main__data .data__list {
+    padding: 0 0 0 30px;
 }
