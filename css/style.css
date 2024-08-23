@@ -54,8 +54,13 @@ a {
 
 .main__data .data__container {
     display: grid;
-    grid-template-columns: 2fr 3fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+}
+
+.main__data .data__item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .main__data .data__label {
@@ -71,8 +76,17 @@ a {
     padding: 0 0 0 30px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 426px) {
+
     .header {
+        justify-content: center;
+        height: 110px;
         margin-bottom: 30px;
+        flex-direction: column;
     }
+
+    .main__data .data__container {
+        grid-template-columns: 1fr;
+    }
+
 }
